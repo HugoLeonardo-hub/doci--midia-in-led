@@ -1,4 +1,7 @@
-        /* Reset básico */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+       /* Reset básico */
         * {
             margin: 0;
             padding: 0;
@@ -6,7 +9,7 @@
         }
 
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Poppins", sans-serif;
             color: #fff;
             background: linear-gradient(180deg, #000, #333);
             line-height: 1.5;
@@ -54,17 +57,23 @@
             background: #000000;
             color: #fff;
             padding: 15px 30px;
-            font-size: 1.1rem;
+            font-size: 1.7rem;
             text-decoration: none;
             border-radius: 5px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             transition: background 0.3s ease, transform 0.2s ease;
+
+            font-weight: 600;
+            font-style: normal;
         }
 
         .btn:hover {
             background: #ffffff;
             transform: scale(1.05);
             color: #000;
+
+            font-weight: 600;
+            font-style: italic;
         }
 
         footer {
