@@ -1,0 +1,112 @@
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #fff;
+            background: linear-gradient(180deg, #000, #333);
+            line-height: 1.5;
+        }
+
+        header {
+            width: 100%;
+            height: 50vh;
+            background: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        header img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        section#cta {
+            background: #1a1a1a;
+            border-top: 5px solid #ffffff;
+        }
+
+        section#cta h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        section#cta p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #000000;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 1.1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        .btn:hover {
+            background: #ffffff;
+            transform: scale(1.05);
+            color: #000;
+        }
+
+        footer {
+            padding: 20px;
+            background: #000;
+            color: #aaa;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            section#cta h1 {
+                font-size: 2rem;
+            }
+
+            section#cta p {
+                font-size: 1rem;
+            }
+
+            .btn {
+                padding: 10px 20px;
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                height: 40vh;
+            }
+
+            section#cta h1 {
+                font-size: 1.8rem;
+            }
+
+            section#cta p {
+                font-size: 0.9rem;
+            }
+
+            .btn {
+                padding: 10px 15px;
+                font-size: 0.9rem;
+            }
+        }
+   
